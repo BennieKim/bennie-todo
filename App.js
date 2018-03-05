@@ -16,6 +16,7 @@ import uuidv1 from "uuid/v1";
 
 const { height, width } = Dimensions.get("window");
 
+//샘플
 export default class App extends React.Component {
   state = {
     newToDo: "",
